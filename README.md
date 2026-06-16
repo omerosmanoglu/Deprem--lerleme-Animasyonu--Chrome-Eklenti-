@@ -3,7 +3,7 @@
 Kandilli Rasathanesi tarafından yayınlanan son depremleri web sayfalarında animasyonlu olarak görüntüleyen Chrome eklentisi.
 
 <p align="center">
-  <img src="images/banner.png" alt="Deprem İlerleme Animasyonu" width="900">
+  <img src="images/banner2.png" alt="Deprem İlerleme Animasyonu" width="900">
 </p>
 
 <p align="center">
