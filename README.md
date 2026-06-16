@@ -6,6 +6,10 @@ Kandilli Rasathanesi tarafından yayınlanan son depremleri web sayfalarında an
   <img src="images/banner2.png" alt="Deprem İlerleme Animasyonu" width="900">
 </p>
 
+<a href='https://chromewebstore.google.com/detail/deprem-i%CC%87lerleme-animasyo/okeiloiifndjmajnbmccmbacoancocpg'>
+Eklentiyi kurmak için tıklayın</a>
+
+
 <p align="center">
   Son depremleri harita üzerinde animasyonlu olarak takip edin.
 </p>
@@ -127,6 +131,109 @@ duyuruları esas alınmalıdır.
 * Chrome Extension API
 
 ---
+
+
+
+---
+
+# 🌐 Chrome Web Store'da Yayınlama
+
+Bu proje açık kaynak olarak paylaşılmıştır. Eklentiyi kendi hesabınız üzerinden Chrome Web Store'da yayınlamak isterseniz aşağıdaki adımları izleyebilirsiniz.
+
+## 1. Paketlenmiş Sürümü Hazırlayın
+
+Chrome eklenti klasörünün içeriğini ZIP dosyası haline getirin.
+
+ZIP dosyasının kök dizininde aşağıdaki dosyalar bulunmalıdır:
+
+```text
+manifest.json
+background.js
+popup.html
+popup.js
+page.js
+page.css
+popup.css
+images/
+```
+
+> Not: `manifest.json` dosyası ZIP içerisinde en üst seviyede bulunmalıdır.
+
+## 2. Chrome Web Store Geliştirici Paneline Girin
+
+Aşağıdaki adrese gidin:
+
+https://chrome.google.com/webstore/devconsole/
+
+Google hesabınız ile giriş yapın.
+
+## 3. Yeni Eklenti Oluşturun
+
+- "New Item" veya "Add New Item" seçeneğine tıklayın.
+- Hazırladığınız ZIP dosyasını yükleyin.
+
+## 4. Mağaza Bilgilerini Girin
+
+Aşağıdaki bilgileri doldurun:
+
+### Eklenti Adı
+
+```text
+Örnek: Deprem İlerleme Animasyonu
+```
+
+### Kısa Açıklama
+
+```text
+Örnek: Kandilli Rasathanesi verilerini animasyonlu olarak görüntüleyen Chrome eklentisi.
+```
+
+### Ayrıntılı Açıklama
+
+README dosyasındaki açıklamaları kullanabilirsiniz.
+
+## 5. Görselleri Yükleyin
+
+Önerilen görseller:
+
+- Eklenti ekran görüntüleri
+- Popup ekranı
+- Animasyon görünümü
+- Banner görseli
+
+## 6. Gizlilik Politikası
+
+Eğer eklenti herhangi bir kullanıcı verisi toplamıyor ise açıklama kısmında bunu belirtmeniz önerilir.
+
+Örnek:
+
+```text
+Örnek: Bu eklenti herhangi bir kişisel veri toplamaz, saklamaz veya üçüncü taraflarla paylaşmaz.
+```
+
+## 7. İnceleme İçin Gönderin
+
+Tüm bilgileri doldurduktan sonra:
+
+```text
+Submit for Review
+```
+
+butonuna tıklayarak Google inceleme sürecini başlatabilirsiniz.
+
+Google onayından sonra eklenti Chrome Web Store'da yayınlanacaktır.
+
+---
+
+# ⚠️ Sorumluluk Reddi
+
+Bu proje eğitim ve bilgilendirme amaçlı geliştirilmiştir.
+
+Chrome eklentisi nasıl geliştirilir onu deneyimlemeniz için yayınlanmıştır.
+
+Deprem verileri ilgili veri kaynaklarından alınmaktadır. Acil durumlarda AFAD, Kandilli Rasathanesi ve resmi kurumların duyuruları esas alınmalıdır.
+
+
 
 # 📜 Lisans
 
