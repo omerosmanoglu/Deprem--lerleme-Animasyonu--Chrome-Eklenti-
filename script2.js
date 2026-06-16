@@ -1,0 +1,1 @@
+alert('Tam ekran yapabilmek için sol üst köşedeki simgeye tıklayınız.');

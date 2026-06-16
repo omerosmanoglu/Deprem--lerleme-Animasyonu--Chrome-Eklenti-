@@ -1,0 +1,17 @@
+#clatlon {
+  background: red !important;
+  color: white !important;
+  font-size: x-large !important;
+  border-top: 1px solid white !important; /* Önceki stilinizi korumak için */
+  text-align:left;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  height: 30px !important;
+};
+#tableMap tr:nth-last-child(-n+3) {
+  display: none;
+}
+#koLogo {
+  display: none;
+}
