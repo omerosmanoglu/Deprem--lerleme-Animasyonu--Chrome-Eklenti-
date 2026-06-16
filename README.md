@@ -57,13 +57,6 @@ görsel animasyonlarla takip etmenizi sağlar.
 
 ✅ Kolay kurulum
 
----
-
-# 📸 Ekran Görüntüleri
-
-## Ana Görünüm
-
-![Deprem Animasyonu](images/banner.png)
 
 ---
 
@@ -132,9 +125,6 @@ duyuruları esas alınmalıdır.
 
 ---
 
-
-
----
 
 # 🌐 Chrome Web Store'da Yayınlama
 
